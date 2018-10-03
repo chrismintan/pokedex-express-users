@@ -6,9 +6,10 @@ class New extends React.Component {
       <html>
         <head />
         <body>
+        <h1>New User</h1>
           <form method="POST" action="/users">
             <div>
-              name:<input name="name" type="text" />
+              Name:<input name="name" type="text" placeholder="Name" />
             </div>
             <input type="submit" value="Submit" />
           </form>

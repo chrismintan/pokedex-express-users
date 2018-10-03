@@ -15,7 +15,7 @@ class Pokemon extends React.Component {
                 name: {this.props.pokemon.name}
               </li>
               <li className="pokemon-attribute">
-                img: {this.props.pokemon.img}
+                <img src={this.props.pokemon.img}/>
               </li>
               <li className="pokemon-attribute">
                 height: {this.props.pokemon.height}
